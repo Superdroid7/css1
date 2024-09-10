@@ -1,0 +1,72 @@
+.boddy{
+    padding: 20px;
+    background-image: url(/images/favicon-32x32.png);
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.backnegro {
+    background-color: #000; 
+    padding: 20px; 
+    height: 800px; 
+    width: 85%; 
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-bottom: 20px;
+}
+
+.backgris {
+    background-color: #1E1E1E; 
+    width: 35%; 
+    height: 600px; 
+    margin: 20px auto; /* Centra el elemento backgris horizontalmente */
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.icon{
+    margin-top: 30px;
+    width: 75px;
+    border-radius: 99%;
+}
+
+.backgris h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.lugar{
+    color: #C1D96C;
+    margin-top: 5px;
+}
+
+.descripcion{
+    color: white;
+    opacity: 60%;
+}
+
+.backgris button{
+    background-color: #333332;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    margin: 10px;
+    font-weight: 900;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
